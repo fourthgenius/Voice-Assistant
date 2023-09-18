@@ -59,7 +59,7 @@ def assistant_speak(audio_string):
     playsound.playsound(audio_file)
     print(audio_string)
     os.remove(audio_file)
-
+  
 time.sleep(1)
 assistant_speak("How can i help you?")
 while 1:
